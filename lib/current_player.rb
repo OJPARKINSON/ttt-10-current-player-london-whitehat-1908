@@ -8,7 +8,7 @@
   return turns
 end
 
-def curren
+def current_player
   t_player(board)
   turns = turn_count(board)
   turns = turns - 1
