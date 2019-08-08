@@ -14,9 +14,9 @@ def current_player(board)
   if turns==0 then 
     return "X"
   elsif turns%1==0 then
-    return "O"
-  elsif turns%1!=0 then 
     return "X"
+  elsif turns%1!=0 then 
+    return "O"
   end
   
 end
