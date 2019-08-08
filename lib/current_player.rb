@@ -9,7 +9,7 @@
 end
 
 def current_player(board)
-  current_player_player(board)
+  current_player(board)
   turns = turn_count(board)
   turns = turns - 1
   if turns==0 then 
