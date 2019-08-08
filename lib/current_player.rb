@@ -14,7 +14,6 @@ def current_player(board)
   if turns==0 then 
     return "X"
   elsif turns%1==0 then
-    puts turns%1
     return "X"
   else
     return "O"
